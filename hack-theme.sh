@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-base_color_bg="#010912"
+base_color_bg="#000000"
 base_color_fg="#005f87"
 blackwidget="#000000"
 border_color="#242d30"
@@ -9,7 +9,7 @@ fgwhite="#b8c5d9"
 fgwhite_alter="rgba(184, 97, 217"
 highlight="#005faf"
 hover_alter="rgba(0, 95, 175"
-mainbg="#051313"
+mainbg="#000000"
 unfocused_bg="#191b1d"
 
 for target in ./Flight-Dark-GTK/gtk-3.0/gtk.css ./Flight-Dark-GTK/gtk-4.0/gtk.css; do
