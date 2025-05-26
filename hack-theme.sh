@@ -7,13 +7,13 @@ border_alternative="rgba(35, 45, 48"
 border_color="#242d30"
 border_radius="border-radius: 0.2mm"
 alternative_widget_color="rgba(45, 45, 64"
-buttons_color="#131313"
+buttons_color="#15181f"
 fgwhite="#b8c5d9"
 fgwhite_alter="rgba(184, 97, 217"
-highlight="#002c52"
+highlight="#002c52" # main highlight color
 hover_alter1="rgba(0, 95, 175"
 hover_alter2="rgba(0, 95, 175"
-mainbg="#101010"
+mainbg="#0a0a0a"
 unfocused_bg="#191b1d"
 
 for target in ./Flight-Dark-GTK/gtk-3.0/gtk.css ./Flight-Dark-GTK/gtk-4.0/gtk.css; do
