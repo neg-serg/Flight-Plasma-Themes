@@ -6,7 +6,8 @@ blackwidget="#000000"
 border_alternative="rgba(35, 45, 48"
 border_color="#242d30"
 border_radius="border-radius: 0"
-buttons_widget_color="rgba(45, 45, 64"
+alternative_widget_color="rgba(45, 45, 64"
+buttons_color="#131313"
 fgwhite="#b8c5d9"
 fgwhite_alter="rgba(184, 97, 217"
 highlight="#002c52"
@@ -28,7 +29,8 @@ for target in ./Flight-Dark-GTK/gtk-3.0/gtk.css ./Flight-Dark-GTK/gtk-4.0/gtk.cs
     sed -i "s/#262a2d/$base_color_fg/g" "$target" # base color foreground
     sed -i "s/rgba(229, 229, 229/$fgwhite_alter/g" "$target" # fg white alternative
     sed -i "s/rgba(86, 89, 92/$fgwhite_alter/g" "$target" # fg white alternative
-    sed -i "s/rgba(45, 49, 54/$buttons_widget_color/g" $target # buttons widget color
+    sed -i "s/rgba(45, 49, 54/$alternative_widget_color/g" $target # buttons widget color
+    sed -i "s/#31363b/$buttons_color/g" $target # buttons widget color
 done
 
 rm -rf ~/.local/share/themes/Flight-Dark-GTK && cp -r ./Flight-Dark-GTK ~/.local/share/themes/Flight-Dark-GTK
