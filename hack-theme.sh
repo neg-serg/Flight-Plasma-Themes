@@ -3,14 +3,14 @@
 base_color_bg="#010912"
 base_color_fg="#005f87"
 blackwidget="#000000"
-unfocused_bg="#191b1d"
-border_color="#0a3749"
+border_color="#242d30"
+border_radius="0"
 fgwhite="#b8c5d9"
 fgwhite_alter="rgba(184, 97, 217"
 highlight="#005faf"
 hover_alter="rgba(0, 95, 175"
-mainbg="#020404"
-border_radius="0"
+mainbg="#051313"
+unfocused_bg="#191b1d"
 
 for target in ./Flight-Dark-GTK/gtk-3.0/gtk.css ./Flight-Dark-GTK/gtk-4.0/gtk.css; do
     sed -i "s/#fcfcfc/$fgwhite/g" "$target" # widget text/foreground color
