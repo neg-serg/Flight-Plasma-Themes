@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 
-base_color_bg="rgba(0, 0, 0, 0.0)"
+base_color_bg="#000000"
 base_color_fg="#005f87"
-blackwidget="rgba(0, 0, 0, 0.0)"
+blackwidget="#000000"
 border_alternative="rgba(35, 45, 48"
 border_color="#242d30"
 border_radius="border-radius: 0.2mm"
