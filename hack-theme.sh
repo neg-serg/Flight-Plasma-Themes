@@ -5,8 +5,9 @@ base_color_fg="#005f87"
 blackwidget="rgba(0, 0, 0, 1.0)"
 border_alternative="rgba(35, 45, 48"
 border_color="#111617"
+darker_border_color="rgba(13, 17, 18"
 border_radius="border-radius: 0.2mm"
-alternative_widget_color="rgba(45, 45, 64"
+alternative_widget_color="rgba(17, 17, 22"
 buttons_color="#15181f"
 fgwhite="#b8c5d9"
 fgwhite_alter="rgba(184, 97, 217"
@@ -28,7 +29,7 @@ for target in ./Flight-Dark-GTK/gtk-3.0/gtk.css ./Flight-Dark-GTK/gtk-4.0/gtk.cs
     sed -i "s/#1b1e20/$base_color_bg/g" "$target" # base color background
     sed -i "s/#262a2d/$base_color_fg/g" "$target" # base color foreground
     sed -i "s/rgba(229, 229, 229/$fgwhite_alter/g" "$target" # fg white alternative
-    sed -i "s/rgba(86, 89, 92/$fgwhite_alter/g" "$target" # fg white alternative
+    sed -i "s/rgba(86, 89, 92/$darker_border_color/g" "$target" # fg white alternative
     sed -i "s/rgba(45, 49, 54/$alternative_widget_color/g" $target # buttons widget color
     sed -i "s/#31363b/$buttons_color/g" $target # buttons widget color
 done
