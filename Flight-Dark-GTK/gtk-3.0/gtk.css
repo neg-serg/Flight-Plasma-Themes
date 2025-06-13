@@ -3,125 +3,125 @@
    use responsibly! */
 /*
 widget text/foreground color */
-@define-color theme_fg_color_breeze #fcfcfc;
+@define-color theme_fg_color_breeze #b8c5d9;
 /*
 text color for entries, views and content in general */
-@define-color theme_text_color_breeze #fcfcfc;
+@define-color theme_text_color_breeze #b8c5d9;
 /*
 widget base background color */
-@define-color theme_bg_color_breeze #2a2e32;
+@define-color theme_bg_color_breeze #0a0a0a;
 /*
 text widgets and the like base background color */
-@define-color theme_base_color_breeze #1b1e20;
+@define-color theme_base_color_breeze rgba(0, 0, 0, 0.97);
 /*
 view hover decoration color*/
-@define-color theme_view_hover_decoration_color_breeze #3daee9;
+@define-color theme_view_hover_decoration_color_breeze #002c52;
 /*
 background color of hovering selected widgets*/
-@define-color theme_hovering_selected_bg_color_breeze #3daee9;
+@define-color theme_hovering_selected_bg_color_breeze #002c52;
 /*
 base background color of selections */
-@define-color theme_selected_bg_color_breeze #3daee9;
+@define-color theme_selected_bg_color_breeze #002c52;
 /*
 text/foreground color of selections */
-@define-color theme_selected_fg_color_breeze #fcfcfc;
+@define-color theme_selected_fg_color_breeze #b8c5d9;
 /*
 decoration color of views */
-@define-color theme_view_active_decoration_color_breeze #3daee9;
+@define-color theme_view_active_decoration_color_breeze #002c52;
 /*
 base background color of insensitive selections */
-@define-color insensitive_selected_bg_color_breeze rgba(37, 164, 230, 0.35);
+@define-color insensitive_selected_bg_color_breeze rgba(0, 95, 175, 0.35);
 /*
 base background color of insensitive widgets */
-@define-color insensitive_bg_color_breeze #262a2d;
+@define-color insensitive_bg_color_breeze #005f87;
 /*
 text foreground color of insensitive widgets */
-@define-color insensitive_fg_color_breeze rgba(229, 229, 229, 0.35);
+@define-color insensitive_fg_color_breeze rgba(184, 97, 217, 0.35);
 /*
 insensitive text widgets and the like base background color */
-@define-color insensitive_base_color_breeze rgba(229, 229, 229, 0.35);
+@define-color insensitive_base_color_breeze rgba(184, 97, 217, 0.35);
 /*
 insensitive text widgets and the like base foreground color */
-@define-color insensitive_base_fg_color_breeze #191b1d;
+@define-color insensitive_base_fg_color_breeze rgba(0, 0, 0, 1.0);
 /*
 insensitive selected text widgets and the like base background color */
-@define-color insensitive_selected_fg_color_breeze rgba(229, 229, 229, 0.35);
+@define-color insensitive_selected_fg_color_breeze rgba(184, 97, 217, 0.35);
 /*
 widget text/foreground color on backdrop windows */
-@define-color theme_unfocused_fg_color_breeze #fcfcfc;
+@define-color theme_unfocused_fg_color_breeze #b8c5d9;
 /*
 text color for entries, views and content in general on backdrop windows */
-@define-color theme_unfocused_text_color_breeze #fcfcfc;
+@define-color theme_unfocused_text_color_breeze #b8c5d9;
 /*
 widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color_breeze #2a2e32;
+@define-color theme_unfocused_bg_color_breeze #0a0a0a;
 /*
 text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color_breeze #1b1e20;
+@define-color theme_unfocused_base_color_breeze rgba(0, 0, 0, 0.97);
 /*
 base background color of selections on backdrop windows, alt */
-@define-color theme_unfocused_selected_bg_color_alt_breeze #3daee9;
+@define-color theme_unfocused_selected_bg_color_alt_breeze #002c52;
 /*
 base background color of selections on backdrop windows */
-@define-color theme_unfocused_selected_bg_color_breeze rgba(61, 174, 233, 0.5);
+@define-color theme_unfocused_selected_bg_color_breeze rgba(0, 95, 175, 0.5);
 /*
 text/foreground color of selections on backdrop windows */
-@define-color theme_unfocused_selected_fg_color_breeze #fcfcfc;
+@define-color theme_unfocused_selected_fg_color_breeze #b8c5d9;
 /*
 base background color of insensitive selections on backdrop windows */
-@define-color insensitive_unfocused_selected_bg_color_breeze rgba(37, 164, 230, 0.35);
+@define-color insensitive_unfocused_selected_bg_color_breeze rgba(0, 95, 175, 0.35);
 /*
 text foreground color of insensitive widgets on backdrop windows*/
-@define-color insensitive_unfocused_fg_color_breeze rgba(229, 229, 229, 0.35);
+@define-color insensitive_unfocused_fg_color_breeze rgba(184, 97, 217, 0.35);
 /*
 backdground color of insensitive widgets on backdrop windows*/
-@define-color insensitive_unfocused_bg_color_breeze #262a2d;
+@define-color insensitive_unfocused_bg_color_breeze #005f87;
 /*
 text foreground color of insensitive selected widgets on backdrop windows*/
-@define-color insensitive_unfocused_selected_fg_color_breeze rgba(229, 229, 229, 0.35);
+@define-color insensitive_unfocused_selected_fg_color_breeze rgba(184, 97, 217, 0.35);
 /*
 view text foreground color of insensitive widgets on backdrop windows */
-@define-color theme_unfocused_view_text_color_breeze rgba(229, 229, 229, 0.35);
+@define-color theme_unfocused_view_text_color_breeze rgba(184, 97, 217, 0.35);
 /*
 insensitive view background color on backdrop windows */
-@define-color theme_unfocused_view_bg_color_breeze #191b1d;
+@define-color theme_unfocused_view_bg_color_breeze rgba(0, 0, 0, 1.0);
 /*
 widgets main borders color */
-@define-color borders_breeze #5f6265;
+@define-color borders_breeze #111617;
 /*
 widgets main borders color on backdrop windows */
-@define-color unfocused_borders_breeze #5f6265;
+@define-color unfocused_borders_breeze #111617;
 /*
 widgets main borders color insensitive */
-@define-color insensitive_borders_breeze rgba(86, 89, 92, 0.35);
+@define-color insensitive_borders_breeze rgba(13, 17, 18, 0.35);
 /*
 widgets main borders color insensitive backdrop */
-@define-color unfocused_insensitive_borders_breeze rgba(86, 89, 92, 0.35);
+@define-color unfocused_insensitive_borders_breeze rgba(13, 17, 18, 0.35);
 /*
 *
 * Button Colors
 *
 */
-@define-color theme_button_background_normal_breeze #31363b;
-@define-color theme_button_decoration_hover_breeze  #3daee9;
-@define-color theme_button_decoration_focus_breeze  #3daee9;
-@define-color theme_button_foreground_normal_breeze #fcfcfc;
-@define-color theme_button_foreground_active_breeze #fcfcfc;
-@define-color theme_button_background_insensitive_breeze        rgba(45, 49, 54, 0.35);
-@define-color theme_button_decoration_hover_insensitive_breeze  rgba(37, 164, 230, 0.35);
-@define-color theme_button_decoration_focus_insensitive_breeze  rgba(37, 164, 230, 0.35);
-@define-color theme_button_foreground_insensitive_breeze        rgba(229, 229, 229, 0.35);
-@define-color theme_button_foreground_active_insensitive_breeze rgba(229, 229, 229, 0.35);
-@define-color theme_button_background_backdrop_breeze        #31363b;
-@define-color theme_button_decoration_hover_backdrop_breeze  #3daee9;
-@define-color theme_button_decoration_focus_backdrop_breeze  #3daee9;
-@define-color theme_button_foreground_backdrop_breeze        #fcfcfc;
-@define-color theme_button_foreground_active_backdrop_breeze #fcfcfc;
-@define-color theme_button_background_backdrop_insensitive_breeze        rgba(45, 49, 54, 0.35);
-@define-color theme_button_decoration_hover_backdrop_insensitive_breeze  rgba(37, 164, 230, 0.35);
-@define-color theme_button_decoration_focus_backdrop_insensitive_breeze  rgba(37, 164, 230, 0.35);
-@define-color theme_button_foreground_backdrop_insensitive_breeze        rgba(229, 229, 229, 0.35);
-@define-color theme_button_foreground_active_backdrop_insensitive_breeze rgba(229, 229, 229, 0.35);
+@define-color theme_button_background_normal_breeze #15181f;
+@define-color theme_button_decoration_hover_breeze  #002c52;
+@define-color theme_button_decoration_focus_breeze  #002c52;
+@define-color theme_button_foreground_normal_breeze #b8c5d9;
+@define-color theme_button_foreground_active_breeze #b8c5d9;
+@define-color theme_button_background_insensitive_breeze        rgba(17, 17, 22, 0.35);
+@define-color theme_button_decoration_hover_insensitive_breeze  rgba(0, 95, 175, 0.35);
+@define-color theme_button_decoration_focus_insensitive_breeze  rgba(0, 95, 175, 0.35);
+@define-color theme_button_foreground_insensitive_breeze        rgba(184, 97, 217, 0.35);
+@define-color theme_button_foreground_active_insensitive_breeze rgba(184, 97, 217, 0.35);
+@define-color theme_button_background_backdrop_breeze        #15181f;
+@define-color theme_button_decoration_hover_backdrop_breeze  #002c52;
+@define-color theme_button_decoration_focus_backdrop_breeze  #002c52;
+@define-color theme_button_foreground_backdrop_breeze        #b8c5d9;
+@define-color theme_button_foreground_active_backdrop_breeze #b8c5d9;
+@define-color theme_button_background_backdrop_insensitive_breeze        rgba(17, 17, 22, 0.35);
+@define-color theme_button_decoration_hover_backdrop_insensitive_breeze  rgba(0, 95, 175, 0.35);
+@define-color theme_button_decoration_focus_backdrop_insensitive_breeze  rgba(0, 95, 175, 0.35);
+@define-color theme_button_foreground_backdrop_insensitive_breeze        rgba(184, 97, 217, 0.35);
+@define-color theme_button_foreground_active_backdrop_insensitive_breeze rgba(184, 97, 217, 0.35);
 /*
 these are pretty self explicative */
 @define-color warning_color_breeze #f67400;
@@ -143,24 +143,24 @@ these are pretty self explicative */
 * Titlebar Colors
 *
 */
-@define-color theme_titlebar_background_breeze          #31363b;
-@define-color theme_titlebar_foreground_breeze          #fcfcfc;
-@define-color theme_titlebar_background_light_breeze    #2a2e32;
+@define-color theme_titlebar_background_breeze          #15181f;
+@define-color theme_titlebar_foreground_breeze          #b8c5d9;
+@define-color theme_titlebar_background_light_breeze    #0a0a0a;
 @define-color theme_titlebar_foreground_backdrop_breeze #a1a9b1;
-@define-color theme_titlebar_background_backdrop_breeze #2a2e32;
-@define-color theme_titlebar_foreground_insensitive_breeze rgba(229, 229, 229, 0.35);
+@define-color theme_titlebar_background_backdrop_breeze #0a0a0a;
+@define-color theme_titlebar_foreground_insensitive_breeze rgba(184, 97, 217, 0.35);
 @define-color theme_titlebar_foreground_insensitive_backdrop_breeze rgba(144, 154, 163, 0.35);
 /*
 * Tooltips
 */
-@define-color tooltip_text_breeze #fcfcfc;
-@define-color tooltip_background_breeze #31363b;
+@define-color tooltip_text_breeze #b8c5d9;
+@define-color tooltip_background_breeze #15181f;
 @define-color tooltip_border_breeze #64686b;
 /*
 * Misc
 */
 @define-color print_paper_backdrop_breeze  white;
-@define-color content_view_bg_breeze #1b1e20;
+@define-color content_view_bg_breeze rgba(0, 0, 0, 0.97);
 /*
  * GTK API color re-defs
  */
@@ -293,7 +293,7 @@ textview text,
   headerbar.selection-mode .view.subtitle:link,
   headerbar.selection-mode button.subtitle:link,
   headerbar.selection-mode button.subtitle:visited {
-    border-radius: 0.75mm; }
+    border-radius: 0.2mm; }
 
 textview border {
   background-color: @theme_base_color_breeze;
@@ -328,7 +328,7 @@ flowbox rubberband {
 
 flowbox flowboxchild {
   padding: 3px;
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
   flowbox flowboxchild:selected,
   flowbox headerbar.selection-mode flowboxchild.subtitle:link,
   flowbox headerbar.selection-mode button.subtitle:link,
@@ -598,7 +598,7 @@ popover.background.touch-selection button.osd, popover.background.magnifier butt
 button.osd, .csd popover.background.touch-selection button, .csd popover.background.magnifier button, popover.background.touch-selection button, popover.background.magnifier button,
 button {
   border: 1px solid;
-  border-radius: 0.75mm;
+  border-radius: 0.2mm;
   padding: 6px 6px;
   background-clip: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.125);
@@ -785,7 +785,7 @@ popover.background.touch-selection .stack-switcher > button.image-button, popove
   background-image: none; }
 
 .inline-toolbar popover.background.touch-selection button, popover.background.touch-selection .inline-toolbar button, .inline-toolbar popover.background.magnifier button, popover.background.magnifier .inline-toolbar button, .inline-toolbar button {
-  border-radius: 0.75mm;
+  border-radius: 0.2mm;
   border-width: 1px; }
 
 .primary-toolbar popover.background.touch-selection button, popover.background.touch-selection .primary-toolbar button, .primary-toolbar popover.background.magnifier button, popover.background.magnifier .primary-toolbar button, .primary-toolbar button {
@@ -863,7 +863,7 @@ buttonbox.linked:not(.vertical):not(.dialog-action-area) button {
   buttonbox.linked:not(.vertical):not(.dialog-action-area) entry:only-child,
   buttonbox.linked:not(.vertical):not(.dialog-action-area) button:only-child {
     border-style: solid;
-    border-radius: 0.75mm; }
+    border-radius: 0.2mm; }
   box.linked:not(.vertical):not(.dialog-action-area) entry:not(:only-child):not(:first-child),
   box.linked:not(.vertical):not(.dialog-action-area) button:not(:only-child):not(:first-child),
   box.inline-toolbar:not(.vertical):not(.dialog-action-area) entry:not(:only-child):not(:first-child),
@@ -1002,7 +1002,7 @@ stackswitcher.linked button:not(.flat) {
     border-bottom-right-radius: 0.75mm; }
   stackswitcher.linked button:not(.flat):only-child {
     border-style: solid;
-    border-radius: 0.75mm; }
+    border-radius: 0.2mm; }
   stackswitcher.linked button:not(.flat):not(:only-child):not(:first-child) {
     margin-left: 0; }
   stackswitcher.linked button:not(.flat):not(:only-child):not(:last-child) {
@@ -1046,7 +1046,7 @@ entry {
   padding-left: 8px;
   padding-right: 8px;
   border: 1px solid;
-  border-radius: 0.75mm;
+  border-radius: 0.2mm;
   color: @theme_text_color_breeze;
   border-color: @borders_breeze;
   background-color: @theme_base_color_breeze;
@@ -1399,7 +1399,7 @@ radio {
     animation: none; }
 
 check {
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
   check:checked {
     -gtk-icon-source: -gtk-recolor(url("../assets/checkmark-symbolic.svg")); }
 
@@ -1449,7 +1449,7 @@ headerbar.selection-mode headerbar button.subtitle:visited {
   box-shadow: none; }
 
 colorswatch.top, colorswatch.bottom, colorswatch.left, colorswatch:first-child:not(.overlay):not(.top), colorswatch.right, colorswatch:last-child:not(.overlay):not(.bottom), colorswatch:only-child:not(.overlay), colorswatch.top > .overlay, colorswatch.bottom > .overlay, colorswatch:first-child:not(.top) > .overlay, colorswatch:last-child:not(.bottom) > .overlay, colorswatch:only-child > .overlay {
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
 
 colorswatch:hover, colorswatch:hover:selected,
 headerbar.selection-mode .subtitle:hover:link,
@@ -1489,7 +1489,7 @@ headerbar.selection-mode label:backdrop button.subtitle:visited {
   box-shadow: none; }
 
 GtkColorEditor colorswatch {
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
   GtkColorEditor colorswatch:hover {
     background-image: none;
     box-shadow: none; }
@@ -2429,7 +2429,7 @@ menu,
 .menu {
   padding: 1mm;
   background-color: mix(@theme_bg_color_breeze,@theme_base_color_breeze,0.3);
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
   menu separator,
   .menu separator {
     color: @borders_breeze;
@@ -2445,7 +2445,7 @@ menu,
     .menu menuitem:hover {
       background-color: alpha(@theme_selected_bg_color_breeze,0.3);
       border: 1px solid @theme_button_decoration_focus_breeze;
-      border-radius: 0.75mm; }
+      border-radius: 0.2mm; }
     menu menuitem:disabled,
     .menu menuitem:disabled {
       color: @insensitive_fg_color_breeze; }
@@ -2601,7 +2601,7 @@ menu {
 
 popover.background {
   padding: 0px;
-  border-radius: 0.75mm;
+  border-radius: 0.2mm;
   background-color: @theme_bg_color_breeze;
   box-shadow: 0px 0px 2mm rgba(0, 0, 0, 0.25), 0px 0.25mm 1mm rgba(0, 0, 0, 0.15); }
   popover.background:backdrop, label:backdrop selection.background {
@@ -3200,13 +3200,13 @@ progressbar {
     min-width: 4px; }
   progressbar trough {
     border: 1px solid;
-    border-radius: 0.75mm;
+    border-radius: 0.2mm;
     background: linear-gradient(alpha(@theme_button_foreground_normal_breeze,0.1),alpha(@theme_button_foreground_normal_breeze,0.1)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
     border-color: alpha(@theme_button_foreground_normal_breeze,0.2); }
   progressbar progress {
     border: 1px solid;
     margin: -1px;
-    border-radius: 0.75mm;
+    border-radius: 0.2mm;
     box-shadow: none;
     background: linear-gradient(alpha(@theme_button_decoration_hover_breeze,0.5),alpha(@theme_button_decoration_hover_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
     border: 1px solid @theme_button_decoration_hover_breeze; }
@@ -3218,7 +3218,7 @@ progressbar {
 
 treeview.view.progressbar {
   border: 0px solid transparent;
-  border-radius: 0.75mm;
+  border-radius: 0.2mm;
   background-color: @theme_selected_bg_color_breeze;
   color: @theme_selected_fg_color_breeze;
   background-image: none; }
@@ -3268,40 +3268,40 @@ levelbar block:not(.empty) {
   border: 1px solid @theme_button_decoration_hover_breeze;
   background: linear-gradient(alpha(@theme_button_decoration_hover_breeze,0.5),alpha(@theme_button_decoration_hover_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
   box-shadow: none;
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
   levelbar block:not(.empty):backdrop, levelbar label:backdrop selection:not(.empty), label:backdrop levelbar selection:not(.empty) {
     border: 1px solid @theme_unfocused_selected_bg_color_breeze;
     background: linear-gradient(alpha(@theme_unfocused_selected_bg_color_breeze,0.5),alpha(@theme_unfocused_selected_bg_color_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
     box-shadow: none;
-    border-radius: 0.75mm; }
+    border-radius: 0.2mm; }
 
 levelbar block.low {
   border: 1px solid @warning_color_breeze;
   background: linear-gradient(alpha(@warning_color_breeze,0.5),alpha(@warning_color_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
   box-shadow: none;
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
   levelbar block.low:backdrop, levelbar label:backdrop selection.low, label:backdrop levelbar selection.low {
     border: 1px solid @warning_color_backdrop_breeze;
     background: linear-gradient(alpha(@warning_color_backdrop_breeze,0.5),alpha(@warning_color_backdrop_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
     box-shadow: none;
-    border-radius: 0.75mm; }
+    border-radius: 0.2mm; }
 
 levelbar block.full, levelbar block.high {
   border: 1px solid @success_color_breeze;
   background: linear-gradient(alpha(@success_color_breeze,0.5),alpha(@success_color_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
   box-shadow: none;
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
   levelbar block.full:backdrop, levelbar label:backdrop selection.full, label:backdrop levelbar selection.full, levelbar block.high:backdrop, levelbar label:backdrop selection.high, label:backdrop levelbar selection.high {
     border: 1px solid @success_color_backdrop_breeze;
     background: linear-gradient(alpha(@success_color_backdrop_breeze,0.5),alpha(@success_color_backdrop_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
     box-shadow: none;
-    border-radius: 0.75mm; }
+    border-radius: 0.2mm; }
 
 levelbar block.empty {
   border: 1px solid alpha(@theme_button_foreground_normal_breeze,0.2);
   background: linear-gradient(alpha(alpha(@theme_button_foreground_normal_breeze,0.2),0.5),alpha(alpha(@theme_button_foreground_normal_breeze,0.2),0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
   box-shadow: none;
-  border-radius: 0.75mm; }
+  border-radius: 0.2mm; }
 
 /************
  * GtkScale *
@@ -3310,7 +3310,7 @@ scale {
   padding: 12px; }
   scale.fine-tune.trough {
     margin: 8px;
-    border-radius: 0.75mm; }
+    border-radius: 0.2mm; }
   scale slider {
     min-width: 16px;
     min-height: 16px;
@@ -3351,7 +3351,7 @@ scale {
     min-width: 4px;
     min-height: 4px;
     border: 1px solid;
-    border-radius: 0.75mm;
+    border-radius: 0.2mm;
     background: linear-gradient(alpha(@theme_button_foreground_normal_breeze,0.1),alpha(@theme_button_foreground_normal_breeze,0.1)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
     border-color: alpha(@theme_button_foreground_normal_breeze,0.2); }
     scale trough:disabled, scale trough.vertical:disabled, scale label:disabled selection.vertical, label:disabled scale selection.vertical {
@@ -3359,7 +3359,7 @@ scale {
       border-color: alpha(@theme_button_foreground_normal_breeze,0.1); }
   scale highlight {
     margin: -1px;
-    border-radius: 0.75mm;
+    border-radius: 0.2mm;
     background: linear-gradient(alpha(@theme_button_decoration_hover_breeze,0.5),alpha(@theme_button_decoration_hover_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
     border: 1px solid @theme_button_decoration_hover_breeze; }
     scale highlight:disabled {
@@ -3544,13 +3544,13 @@ scrollbar {
   border-style: none;
   background-color: @theme_base_color_breeze; }
   .sidebar:not(separator):dir(ltr), .sidebar:not(separator).left, .sidebar:not(separator).left:dir(rtl) {
-    border-right: 1px solid mix(#2a2e32,#fcfcfc,0.07);
+    border-right: 1px solid mix(#0a0a0a,#b8c5d9,0.07);
     border-left: none; }
   .sidebar:not(separator):dir(rtl), .sidebar:not(separator).right {
-    border-left: 1px solid mix(#2a2e32,#fcfcfc,0.07);
+    border-left: 1px solid mix(#0a0a0a,#b8c5d9,0.07);
     border-right: none; }
   .sidebar .sidebar-header > separator {
-    background-color: mix(#2a2e32,#fcfcfc,0.07); }
+    background-color: mix(#0a0a0a,#b8c5d9,0.07); }
   .sidebar row.activatable {
     border: 0; }
     .sidebar row.activatable:dir(ltr) {
@@ -3842,7 +3842,7 @@ toolbar {
   toolbar.osd {
     padding: 13px;
     border: none;
-    border-radius: 0.75mm;
+    border-radius: 0.2mm;
     background-color: @theme_bg_color_breeze; }
     toolbar.osd:backdrop, label:backdrop selection.osd {
       border-color: @unfocused_borders_breeze;
@@ -3875,7 +3875,7 @@ tooltip {
   color: @tooltip_text_breeze;
   padding: 4px;
   /* not working */
-  border-radius: 0.75mm;
+  border-radius: 0.2mm;
   box-shadow: none;
   text-shadow: none;
   border: 1px solid @tooltip_border_breeze; }
@@ -4013,7 +4013,7 @@ decoration {
   .maximized decoration, .fullscreen decoration, .tiled decoration {
     border-radius: 0; }
   .popup decoration {
-    border-radius: 0.75mm;
+    border-radius: 0.2mm;
     box-shadow: 0px 3px 10px -4px rgba(0, 0, 0, 0.27), 0px 5px 8px -4px rgba(0, 0, 0, 0.17); }
   .ssd decoration {
     box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.1); }
@@ -4361,7 +4361,7 @@ assistant .sidebar label.highlight {
   background-color: @tooltip_background_breeze;
   color: @tooltip_text_breeze;
   border: 1px solid @tooltip_border_breeze;
-  border-radius: 0.75mm;
+  border-radius: 0.2mm;
   margin: 3px; }
 
 window.background.chromium {
